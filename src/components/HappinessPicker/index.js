@@ -13,7 +13,7 @@ export default class HappinessPicker extends Component {
     const { itemIndex, name, rateScore } = this.props
     return (
       <div>
-        <h2>{name}</h2>
+        <h3>{name}</h3>
         {emojiData.map((item) => (
         <span key={item.value}>
           <input name={name} type="radio" id={`${item.value}${name}`}/>
@@ -23,6 +23,7 @@ export default class HappinessPicker extends Component {
           {item.emoji}</label>
           </span>
         ))}
+        <hr></hr>
       </div>
     )
   }

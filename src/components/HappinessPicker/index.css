@@ -5,6 +5,12 @@ input:checked + label {
   background-color: blue;
 }
 
+h3{
+  color:gray;
+  padding:5px;
+  margin:5px 0 5px 0;
+}
+
 label {
     width: 35px;
     height: 35px;

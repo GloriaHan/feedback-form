@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import HappinessPicker from '../HappinessPicker'
+import "./index.css"
 
 export default class FeedbackForm extends Component {
   state= {
@@ -20,7 +21,8 @@ export default class FeedbackForm extends Component {
 
   render() {
     return (
-      <div>
+      <div className='main'>
+        <h2>Please rate for our restaurant:</h2>
         {this.state.feedback.map((item,index)=>(
           <HappinessPicker
           key={item.name}
