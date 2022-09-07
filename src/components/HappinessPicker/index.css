@@ -1,0 +1,12 @@
+input {
+  display: none;
+}
+input:checked + label {
+  background-color: blue;
+}
+
+label {
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+}
